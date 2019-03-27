@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27d9c4e9-da05-4fb3-98dc-3097bb37eb61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-CommerceStore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/License.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/Useful_Resources.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/datatables-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/datatables-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/directives.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/addons/directives.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/addons/datatables-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/addons/datatables-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/default-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/enhanced-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/modules/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/_custom-skin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/addons/_datatables-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/addons/_directives.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDB-Free_4.7.1/scss/mdb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderBusinessService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderDataService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderNote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBusinessService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductDataService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserBusinessService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserDataService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_displayProductResults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_displayProductResultsCards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addNewProductTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addNewUserTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addToCart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customCartPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_connector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleteProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editProductsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editUserTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screen Shot 2019-02-27 at 4.29.29 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/homepageImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_plugin/bootstable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginOrRegister.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newUserForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processNewProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processNewUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processUpdateProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processUpdateUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productSearchHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/600684.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/600788.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/AH-3457.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/AH-3513M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/AH-4122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/AH-4130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/AH-PRS404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ED2203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ED2600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ED4610.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/Game-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/KR0022B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MA-540S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MA-8651S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MC-FM-671.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MC-SW-1022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MD3030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MD3033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/MD3045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ME-0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ME-0105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ME-0116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ME-0124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-1211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-1503-BK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-2722-EG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-522.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-532.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-5930.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-854.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-H-908.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-K-190.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/NP-L-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/SD4127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/SD4139L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/SD4194.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/UC3069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/XB0098.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/ZH-016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_pics/list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showCart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showLoginForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/showRegistrationForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usersTable.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addToCart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/showProduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/showCart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customCartPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-567">
+              <caret line="73" column="129" selection-start-line="73" selection-start-column="129" selection-end-line="73" selection-end-column="129" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usersTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2205">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>register.php</find>
+      <find>login.php</find>
+      <find>far</find>
+      <find>save</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/db_connector.php" />
+        <option value="$PROJECT_DIR$/jquery.tabledit.js" />
+        <option value="$PROJECT_DIR$/adminPage.php" />
+        <option value="$PROJECT_DIR$/processUpdateUser.php" />
+        <option value="$PROJECT_DIR$/editProductsTable.php" />
+        <option value="$PROJECT_DIR$/editUserTable.php" />
+        <option value="$PROJECT_DIR$/deleteUser.php" />
+        <option value="$PROJECT_DIR$/UserBusinessService.php" />
+        <option value="$PROJECT_DIR$/usersTable.php" />
+        <option value="$PROJECT_DIR$/addNewUserTable.php" />
+        <option value="$PROJECT_DIR$/User.php" />
+        <option value="$PROJECT_DIR$/UserDataService.php" />
+        <option value="$PROJECT_DIR$/deleteProduct.php" />
+        <option value="$PROJECT_DIR$/carTest.php" />
+        <option value="$PROJECT_DIR$/Products.php" />
+        <option value="$PROJECT_DIR$/processUpdateProduct.php" />
+        <option value="$PROJECT_DIR$/newProduct.php" />
+        <option value="$PROJECT_DIR$/_displayProductResults.php" />
+        <option value="$PROJECT_DIR$/_displayProductResultsCards.php" />
+        <option value="$PROJECT_DIR$/ProductBusinessService.php" />
+        <option value="$PROJECT_DIR$/productSearchHandler.php" />
+        <option value="$PROJECT_DIR$/showLoginForm.php" />
+        <option value="$PROJECT_DIR$/newUserForm.php" />
+        <option value="$PROJECT_DIR$/showMainWelcome.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/newShowCartPage.php" />
+        <option value="$PROJECT_DIR$/orderNote.php" />
+        <option value="$PROJECT_DIR$/orderDetails.php" />
+        <option value="$PROJECT_DIR$/OrderBusinessService.php" />
+        <option value="$PROJECT_DIR$/Order.php" />
+        <option value="$PROJECT_DIR$/OrderDataService.php" />
+        <option value="$PROJECT_DIR$/processNewProduct.php" />
+        <option value="$PROJECT_DIR$/ProductDataService.php" />
+        <option value="$PROJECT_DIR$/addNewProductTable.php" />
+        <option value="$PROJECT_DIR$/productsTable.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/registration.php" />
+        <option value="$PROJECT_DIR$/registerForm.php" />
+        <option value="$PROJECT_DIR$/processNewUser.php" />
+        <option value="$PROJECT_DIR$/loginHandler.php" />
+        <option value="$PROJECT_DIR$/loginForm.php" />
+        <option value="$PROJECT_DIR$/loginOrRegister.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/navbar.php" />
+        <option value="$PROJECT_DIR$/Cart.php" />
+        <option value="$PROJECT_DIR$/showProduct.php" />
+        <option value="$PROJECT_DIR$/showCart.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/customCartPage.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/addToCart.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="193" />
+    <option name="y" value="23" />
+    <option name="width" value="1041" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="MDB-Free_4.7.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="MDB-Free_4.7.1" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/MAMP/htdocs/Store/login.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d9c4e9-da05-4fb3-98dc-3097bb37eb61" name="Default Changelist" comment="" />
+      <created>1548041616592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548041616592</updated>
+      <workItem from="1548041617759" duration="2460000" />
+      <workItem from="1551307539266" duration="2933000" />
+      <workItem from="1551478909932" duration="117000" />
+      <workItem from="1551479141648" duration="6132000" />
+      <workItem from="1551485686244" duration="864000" />
+      <workItem from="1551912054945" duration="4844000" />
+      <workItem from="1552077260613" duration="8721000" />
+      <workItem from="1552330841146" duration="45870000" />
+      <workItem from="1553145158905" duration="10715000" />
+      <workItem from="1553400891379" duration="5021000" />
+      <workItem from="1553541334589" duration="7381000" />
+      <workItem from="1553554385744" duration="5501000" />
+      <workItem from="1553639968492" duration="22010000" />
+      <workItem from="1553667634650" duration="8000" />
+      <workItem from="1553667754298" duration="41000" />
+      <workItem from="1553667797594" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122760000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="193" y="23" width="1041" height="877" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26124403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/processUpdateUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editUserTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editProductsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processUpdateProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customersTable.php" />
+    <entry file="file://$PROJECT_DIR$/newProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_displayProductResults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductBusinessService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showRegistrationForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserDataService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="272" column="35" lean-forward="true" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newUserForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_displayProductResultsCards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showLoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderNote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderBusinessService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landingPage.php" />
+    <entry file="file://$PROJECT_DIR$/newShowCartPage.php" />
+    <entry file="file://$PROJECT_DIR$/productsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#form#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processNewProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.php" />
+    <entry file="file://$PROJECT_DIR$/loginHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registerForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewUserTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processNewUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewProductTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php" />
+    <entry file="file://$PROJECT_DIR$/productSearchHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showMainWelcome.php" />
+    <entry file="file://$PROJECT_DIR$/loginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="66" lean-forward="true" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserBusinessService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginOrRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderDataService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductDataService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1969">
+          <caret line="173" column="24" lean-forward="true" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addToCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customCartPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="73" column="129" selection-start-line="73" selection-start-column="129" selection-end-line="73" selection-end-column="129" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
