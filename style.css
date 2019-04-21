@@ -148,4 +148,22 @@ td .fa-times:hover{
     cursor: pointer;
 }
 
+#productPrice input.form-control:focus {
+
+    outline: none;
+    box-shadow: none !important;
+
+
+}
+
+.fa-shopping-cart{
+    color: #ffffff;
+}
+
+.fa-shopping-cart:hover{
+
+    color: #0062cc;
+    cursor: pointer;
+}
+
 

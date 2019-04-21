@@ -22,6 +22,10 @@ if (isset($_SESSION['cart'])) {
     }
 }
 
+
+$c->addItem($id);
+$c->calcTotal();
+
 $_SESSION['cart'] = unserialize(serialize($_SESSION['cart']));
 $_SESSION['cart'] = $c;
 
@@ -32,4 +36,4 @@ print_r($_SESSION['cart']);
 echo "</pre>";
 
 
-header("Location: customCartPage.php");
+header("Location: customCart.php");

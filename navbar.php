@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-dark elegant-color">
     <a class="navbar-brand" href="index.php">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -16,6 +17,10 @@
                 <a class="nav-link" href="loginOrRegister.php">Login/Register</a>
             </li>
         </ul>
+    </div>
+
+    <div style="margin-right: 3%;">
+        <a href="customCart.php"><i id="shoppingCartIcon" class="fas fa-shopping-cart"></i></a>
     </div>
 
     <div>

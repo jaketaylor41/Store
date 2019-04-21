@@ -3,6 +3,7 @@ session_start();
 require_once 'ProductBusinessService.php';
 require_once 'UserBusinessService.php';
 require_once 'Cart.php';
+require_once 'Products.php';
 require_once 'header.php';
 
 $productBS = new ProductBusinessService();
@@ -40,9 +41,12 @@ $user = $userBS->findById($userid);
     <div style="font-size: 17px;">Free delivery and free returns.</div>
 </div>
 
+
+
 <?php
 
-echo "<table class='table table-borderless' style='width: 70%; margin: 0 auto;'>";
+
+echo "<table id='qtySelect' class='table table-borderless' style='width: 70%; margin: 0 auto;'>";
 
 
 echo "<thead>";
@@ -55,13 +59,23 @@ echo "</tr>";
 echo "</thead>";
 
 
+
 foreach ($c->getItems() as $product_id => $qty) {
     $product = $productBS->findById($product_id);
 
     echo "<tr style='border-bottom: 1px solid rgba(0,0,0,.1);'>";
     echo "<td><img style='width: auto; height: auto; max-width: 203px; max-height: 203px;' src='product_pics/" . $product->getPhoto() . "' alt='ProductIMG'></td>";
     echo "<td><h2 style='font-size: 24px; font-weight: 600;'>" . $product->getProductName() . "</h2></td>";
-    echo "<td><input style='width: 50px; border: none;' class='form-control' type='number' name='qty' value=" . $qty . "></td>";
+    //echo "<td><input style='width: 50px; border: none;' class='form-control' type='number' name='qty' value=" . $qty . "></td>";
+    echo "<form action='updateQty.php' id='qtyForm'>";
+    echo "<td>";
+    echo "<input type='hidden' name='id' value='" . $product->getId() . "' />";
+    echo "<select name='selectQty' onchange='this.form.submit()' class=\"browser-default custom-select\">";
+    echo "<option disabled selected>". $qty ."</option><option value='1'>1</option><option value='2'>2</option><option value='3'>3</option><option value='4'>4</option><option value='5'>5</option><option value='6'>6</option><option value='7'>7</option><option value='8'>8</option><option value='9'>9</option><option value='10'>10</option>";
+    echo "</select>";
+    echo "<noscript><input type=\"submit\" value=\"Submit\"></noscript>";
+    echo "</td>";
+    echo "</form>";
     echo "<td><p style='font-size: 24px; font-weight: 600;'>$" . $qty * $product->getPrice() . "</p></td>";
     echo "<td><i style='position: absolute; margin-left: 50px ' class=\"fas fa-times\"></i></td>";
     echo "</tr>";
@@ -130,13 +144,13 @@ echo "</table>";
 
     $("#promoBtn").click(function () {
         $("#promoDiv").slideToggle();
-        $("#promo").animate({width: '50%'}, "slow");
+        $("#promo").animate({width: '60%'}, "slow");
     });
 
     $("#taxBtn").click(function () {
 
         $("#taxDiv").slideToggle();
-        $("#tax").animate({width: '61%'}, "slow");
+        $("#tax").animate({width: '60%'}, "slow");
         // $("#tax").animate({margin: "5%"});
 
     });
@@ -150,5 +164,6 @@ echo "</table>";
     var today = moment().add(7, 'days').format("dddd, MMMM Do YYYY");
 
     document.getElementById('shippingDate').innerHTML = today + " - Free";
+
 </script>
 

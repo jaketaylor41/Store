@@ -12,7 +12,7 @@
         <form class="text-center" style="color: #757575;" action="loginHandler.php" method="post">
 
             <!-- Username -->
-            <div class="md-form mt-0">
+            <div style="padding-top: 25px;" class="md-form mt-0">
                 <input type="text" id="materialRegisterFormUsername" placeholder="Username" class="form-control" name="usernameInput">
                 <label for="materialRegisterFormEmail"></label>
             </div>
